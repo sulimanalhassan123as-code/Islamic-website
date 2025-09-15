@@ -1,0 +1,12 @@
+Visitor notification setup (Formspree)
+1. Go to https://formspree.io/ and create a free account.
+2. Create a new form and set recipient to: sulleyalhassan.178.as@gmail.com
+3. Copy the form endpoint (it looks like: https://formspree.io/f/abcdxyz)
+4. Open index.html in a text editor and replace FORMSPREE_ENDPOINT value with your endpoint.
+   (Search for YOUR_FORM_ID_HERE inside index.html)
+5. Save index.html, re-upload to your hosting (or test locally with internet). When a visitor loads the homepage,
+   Formspree will send you an email with the visit details.
+Notes:
+- If you want the trustee to receive emails, either ask them to create an email and add as a recipient,
+  or configure automatic forwarding from your email to the trustee's phone/WhatsApp using third-party tools.
+- This setup is free (Formspree has a free tier), simple, and does not require a server.
