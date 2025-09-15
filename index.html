@@ -1,0 +1,33 @@
+<script>
+// Visitor notification using Getform
+(function(){
+  const FORM_ENDPOINT = "https://getform.io/f/akkpdyla"; // ← your link
+  const OWNER_EMAIL = "sulleyalhassan.178.as@gmail.com";
+  const payload = {
+    _subject: "Website visited — Sadaqah Jariyah",
+    timestamp: new Date().toISOString(),
+    page: window.location.pathname + window.location.search,
+    userAgent: navigator.userAgent,
+    language: navigator.language,
+    referrer: document.referrer
+  };
+  try {
+    const last = localStorage.getItem("sadaqah_last_notify");
+    const now = Date.now();
+    const interval = 15 * 60 * 1000;
+    if (!last || (now - parseInt(last)) > interval) {
+      fetch(FORM_ENDPOINT, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "Accept": "application/json" },
+        body: JSON.stringify(payload)
+      }).then(resp => {
+        localStorage.setItem("sadaqah_last_notify", now.toString());
+      }).catch(err => {
+        console.warn("Notify error:", err);
+      });
+    }
+  } catch(e) {
+    console.error("Visitor notify script error:", e);
+  }
+})();
+</script>
