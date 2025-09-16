@@ -1,1 +1,0 @@
-Polished version of Sadaqah Jariyah site. Upload all files to GitHub repo root.
