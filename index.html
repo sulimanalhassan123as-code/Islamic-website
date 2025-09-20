@@ -1,1 +1,120 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ISLAMIC GOOGLE — Search Islamic Resources</title><link rel="stylesheet" href="css/style.css"><script src="https://unpkg.com/lunr/lunr.js"></script><script src="js/app.js" defer></script></head><body><header><div class="hero-video" aria-hidden="true"><iframe src="https://www.youtube.com/embed/J1pQ6v2XqS4?controls=0&showinfo=0&autoplay=1&loop=1&mute=1&playlist=J1pQ6v2XqS4" allow="autoplay; encrypted-media" title="Hero video"></iframe></div><div class="hero-content"><div class="logo"><img src="assets/logo.svg" alt="Logo"><div style="text-align:left"><div style="font-weight:700">SULEIMAN AL HASSAN</div><div style="font-size:12px;opacity:0.9">ISLAMIC GOOGLE</div></div></div><h1>Search Authentic Islamic Resources</h1><p class="lead">Find lectures, books, tafsir, seerah and more — curated for authenticity and learning.</p><div class="search-bar" role="search"><input id="searchBox" type="text" placeholder="Search topics, names, books, lectures..."><button id="searchBtn" class="btn">Search</button></div></div></header><main><section><div id="results" class="results" aria-live="polite"></div></section><section style="margin-top:32px;"><h2 style="margin-bottom:8px">Quick categories</h2><div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn" href="#" onclick="document.getElementById('searchBox').value='Salah';doSearch();return false">Salah</a><a class="btn" href="#" onclick="document.getElementById('searchBox').value='Seerah';doSearch();return false">Seerah</a><a class="btn" href="#" onclick="document.getElementById('searchBox').value='Tafsir';doSearch();return false">Tafsir</a><a class="btn" href="#" onclick="document.getElementById('searchBox').value='Hadith';doSearch();return false">Hadith</a></div></section></main><footer><nav><a href="about.html">About</a> | <a href="contact.html">Contact</a> | <a href="https://wa.me/233599931348" target="_blank">WhatsApp</a></nav><div style="margin-top:6px;opacity:0.9">Made by SULEIMAN AL HASSAN — © 2025</div></footer></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ISLAMIC GOOGLE — Search Islamic Resources</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #186F65;
+      color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+      position: relative;
+    }
+    .logo-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+    }
+    .logo-container img {
+      height: 60px;
+      width: auto;
+      vertical-align: middle;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    main {
+      max-width: 600px;
+      margin: 2rem auto;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(24, 111, 101, 0.1);
+      text-align: center;
+    }
+    .search-box {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+    }
+    .search-btn {
+      background: #186F65;
+      color: #fff;
+      border: none;
+      padding: 0.75rem 2rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .search-btn:hover {
+      background: #145A50;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem 0;
+      background: #186F65;
+      color: #fff;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+    @media (max-width: 700px) {
+      main {
+        margin: 1rem;
+        padding: 1rem;
+      }
+      .logo-container img {
+        height: 40px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <!-- Update the src below to the correct path of your logo image -->
+      <img src="images/logo.png" alt="Islamic Website Logo">
+      <h1>ISLAMIC GOOGLE</h1>
+    </div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Resources</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Search Islamic Resources</h2>
+    <form action="#" method="get">
+      <input class="search-box" type="text" name="search" placeholder="Type your query...">
+      <br>
+      <button class="search-btn" type="submit">Search</button>
+    </form>
+    <p>Welcome! Use the search bar above to find Islamic articles, books, lectures, and more.</p>
+  </main>
+  <footer>
+    &copy; 2025 Islamic Website. All rights reserved.
+  </footer>
+</body>
+</html>
