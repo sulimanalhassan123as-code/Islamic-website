@@ -1,0 +1,99 @@
+[
+  {
+    "id": "1",
+    "title": "Introduction to Islam - Mufti Menk Lecture",
+    "description": "Basics of belief and practice.",
+    "url": "https://www.youtube.com/watch?v=J1pQ6v2XqS4",
+    "tags": [
+      "Mufti Menk",
+      "Islam"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Seerah of the Prophet \ufdfa - Overview",
+    "description": "Concise seerah for beginners.",
+    "url": "https://example.com/seerah",
+    "tags": [
+      "Seerah",
+      "Prophet"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Riyad-us-Salihin - Selected Hadiths",
+    "description": "Collection of hadiths for daily practice.",
+    "url": "https://example.com/riyad",
+    "tags": [
+      "Hadith"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Tafsir - Short Explanations",
+    "description": "Tafsir for selected surahs.",
+    "url": "https://example.com/tafsir",
+    "tags": [
+      "Tafsir",
+      "Quran"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "How to Pray (Salah) - Beginner guide",
+    "description": "Step-by-step guide to perform salah.",
+    "url": "https://example.com/salah",
+    "tags": [
+      "Salah",
+      "Prayer"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Islamic Stories for Children",
+    "description": "Audio stories to teach morals.",
+    "url": "https://example.com/stories",
+    "tags": [
+      "Stories",
+      "Children"
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Fasting (Sawm) - Rules and benefits",
+    "description": "Guide to fasting basics.",
+    "url": "https://example.com/fasting",
+    "tags": [
+      "Fasting",
+      "Ramadan"
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Charity & Waqf - Guidance",
+    "description": "How to give sadaqah effectively.",
+    "url": "https://example.com/sadaqah",
+    "tags": [
+      "Charity",
+      "Waqf"
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Authentic Lectures - Playlist",
+    "description": "Playlist of trustworthy lectures.",
+    "url": "https://www.youtube.com/playlist?list=EXAMPLE",
+    "tags": [
+      "Lectures"
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Learning Arabic - Basics",
+    "description": "Short course to learn Quranic Arabic.",
+    "url": "https://example.com/arabic",
+    "tags": [
+      "Arabic"
+    ]
+  }
+]
